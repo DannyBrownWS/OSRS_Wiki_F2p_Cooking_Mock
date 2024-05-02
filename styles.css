@@ -1,0 +1,202 @@
+caption[class~="sr-only"] {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  width: 1px !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  padding: 0 !important;
+  margin: -1px !important;
+}
+
+.content:not(h1, h2, h3, h4) {
+  font-family: "IBM Plex Sans";
+  font-size: 0.9em;
+  line-height: 150%;
+}
+
+h1 {
+  line-height: 150% !important;
+}
+
+.content {
+  background-color: #e2dbc8;
+  padding: 10px;
+}
+
+body {
+  background-color: #c0a986;
+  padding-left: 150px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+table {
+  font-size: 1em;
+}
+
+h1, h2, h3, h4 {
+  font-family: "PT Serif";
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h3, h4 {
+  font-weight: 700;
+}
+
+h1, h2 {
+  border-bottom: 1px solid #cfc08d;
+}
+
+table {
+  border: 1px solid #95876d;
+  border-collapse: collapse;
+}
+
+#no-burning-table, #wine-table {
+  overflow: visible;
+}
+
+#no-burning-table td {
+  padding: 3px 5px;
+}
+
+#no-burning-table th {
+  padding: 20px 0;
+  line-height: 150%;
+}
+
+#wine-table th {
+  padding: 20px 0;
+  line-height: 150%;
+}
+
+#wine-table td {
+  padding: 3px 5px;
+}
+
+nav h4 {
+  border-bottom: 1px solid #95876d;
+  background-color: #b8a382;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "IBM Plex Sans";
+  font-size: 0.9em;
+}
+
+nav:not(h4) {
+  background-color: #d8cdb4;
+}
+
+nav {
+  border: 1px solid #95876d;
+  font-family: "IBM Plex Sans";
+  font-size: 0.9em;
+  max-width: 386px;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 25px;
+  padding-top: 0;
+  line-height: 1.8em;
+  list-style: none;
+}
+
+nav li {
+  color: #925e37;
+  display: list-item;
+  text-align: left;
+}
+
+nav a:link, a:visited, a:active {
+  color: #925e37;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #925e37;
+  text-decoration: underline;
+}
+
+.left-border {
+  border-left: dotted 1px #95876d;
+  margin-left: 25px;
+  padding-left: 8px;
+}
+
+th {
+  border: 1px solid #95876d;
+  background-color: #b8a382;
+  font-weight: 700;
+  padding: 5px;
+  border-bottom: 0px;
+}
+
+td {
+  border:  1px solid #95876d;
+  background-color: #d8cdb4;
+  line-height: 150%;
+  padding: 5px;
+}
+
+td.data {
+  text-align: right;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+td.empty {
+  border: 0px;
+  background-color: #b8a382;
+}
+
+span.coins, span.coins-neg {
+  display: inline-block;
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+}
+
+.coins-1000 {
+  background-image: url(https://oldschool.runescape.wiki/images/Coins_1000.png?978c8);
+  padding: 1px 0px 1px 35px;
+}
+
+.coins-100 {
+  background-image: url(https://oldschool.runescape.wiki/images/Coins_100.png?511f4);
+  padding: 2px 0px 2px 30px;
+}
+
+.coins-25 {
+  background-image: url(https://oldschool.runescape.wiki/images/Coins_25.png?cbfd9);
+  padding: 1px 0px 1px 30px;
+}
+
+.coins-5 {
+  background-image: url(https://oldschool.runescape.wiki/images/Coins_5.png?4afbb);
+  padding: 1px 0px 1px 30px;
+}
+
+.coins {
+  color: #014cc0;
+}
+
+.coins-neg {
+  color: #c02613;
+}
+
+.floor {
+  font-style: italic;
+  color: #1255ff;
+  cursor: help;
+  border-bottom: dotted 1px;
+}
